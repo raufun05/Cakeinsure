@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Log In Successful |]]>
+    </line>
+    <line>
+      <![CDATA[Adding is Pass |Game 1]]>
+    </line>
+    <line>
+      <![CDATA[Adding is Pass |Game 2]]>
+    </line>
+    <line>
+      <![CDATA[Adding is Pass |Game 3]]>
+    </line>
+    <line>
+      <![CDATA[View Game pass |]]>
+    </line>
+    <line>
+      <![CDATA[View Soccer Pass |]]>
+    </line>
+    <line>
+      <![CDATA[View Play Soccer pass |]]>
+    </line>
+    <line>
+      <![CDATA[View Game pass |]]>
+    </line>
+    <line>
+      <![CDATA[View Soccer Pass |]]>
+    </line>
+    <line>
+      <![CDATA[View Play Soccer pass |]]>
+    </line>
+    <line>
+      <![CDATA[View Game pass |]]>
+    </line>
+    <line>
+      <![CDATA[View Soccer Pass |]]>
+    </line>
+    <line>
+      <![CDATA[View Play Soccer pass |]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="34404" started-at="2019-03-17T17:03:58Z" finished-at="2019-03-17T17:04:32Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="TestRunner.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:org.saleforce.service.test.TestRunner@68bbe345]" name="feature" class="org.saleforce.service.test.TestRunner"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="34404" started-at="2019-03-17T17:03:58Z" finished-at="2019-03-17T17:04:32Z">
+      <class name="org.saleforce.service.test.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:org.saleforce.service.test.TestRunner@68bbe345]" name="setUpClass" is-config="true" duration-ms="381" started-at="2019-03-17T11:03:58Z" finished-at="2019-03-17T11:03:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:org.saleforce.service.test.TestRunner@68bbe345]" name="feature" duration-ms="33918" started-at="2019-03-17T11:03:58Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-03-17T11:04:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[LoginSF]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Log In Successful |]]>
+            </line>
+            <line>
+              <![CDATA[Adding is Pass |Game 1]]>
+            </line>
+            <line>
+              <![CDATA[Adding is Pass |Game 2]]>
+            </line>
+            <line>
+              <![CDATA[Adding is Pass |Game 3]]>
+            </line>
+            <line>
+              <![CDATA[View Game pass |]]>
+            </line>
+            <line>
+              <![CDATA[View Soccer Pass |]]>
+            </line>
+            <line>
+              <![CDATA[View Play Soccer pass |]]>
+            </line>
+            <line>
+              <![CDATA[View Game pass |]]>
+            </line>
+            <line>
+              <![CDATA[View Soccer Pass |]]>
+            </line>
+            <line>
+              <![CDATA[View Play Soccer pass |]]>
+            </line>
+            <line>
+              <![CDATA[View Game pass |]]>
+            </line>
+            <line>
+              <![CDATA[View Soccer Pass |]]>
+            </line>
+            <line>
+              <![CDATA[View Play Soccer pass |]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:org.saleforce.service.test.TestRunner@68bbe345]" name="tearDownClass" is-config="true" duration-ms="13" started-at="2019-03-17T11:04:32Z" finished-at="2019-03-17T11:04:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- org.saleforce.service.test.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
